@@ -1,0 +1,38 @@
+{
+    "contract": "CDC4GW7ODUH2EHR3HRZZJTVYMEVV5Y3ZFUZYESNXUCWF6ETQM227QR5C",
+    "name": "Mint OG Hacker NFT for 10 $XLM",
+    "description": "Mint OG Hacker NFT for 10 $XLM. Choose the amount of NFTs from the options below.",
+    "image": "https://media.tenor.com/OPYKbuuQaOcAAAAe/brainlet.png",
+    "website": "https://app.og-hacker.com",
+    "network": "TESTNET",
+    "actions": [
+        {
+            "id": "mint1", 
+            "label": "Mint NFT", 
+            "method": "mint_batch",
+            "input": [
+                {
+                    "type": "caller"
+                },
+                {
+                    "type": "u32",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "id": "mint5", 
+            "label": "Mint 5 NTF's", 
+            "method": "mint_batch",
+            "input": [
+                {
+                    "type": "caller"
+                },
+                {
+                    "type": "u32",
+                    "value": 5
+                }
+            ]
+        }
+    ]
+}
