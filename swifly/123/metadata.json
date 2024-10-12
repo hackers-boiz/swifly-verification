@@ -7,7 +7,7 @@
     "network": "TESTNET",
     "actions": [ 
         {
-            "id": "tick",
+            "id": "increment",
             "label": "Increment", 
             "method": "increment" 
         }
