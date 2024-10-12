@@ -1,9 +1,9 @@
 {
     "contract": "CCRZXWYAI6MDPPQLMCFWC2E4QHJ3433GXB7W3EF65YIDA7JHEB2X6TI5",
-    "name": "Mint OG Hacker NFT for 10 $XLM",
-    "description": "Mint OG Hacker NFT for 10 $XLM. Choose the amount of NFTs from the options below.", 
+    "name": "Increment the counter",
+    "description": "Use this action to increment the counter.", 
     "image": "https://i.pinimg.com/474x/59/39/73/593973353b3b4b69b795026e920ae76e.jpg", 
-    "website": "https://app.og-hacker.com", 
+    "website": "https://example.com", 
     "network": "TESTNET",
     "actions": [ 
         {
