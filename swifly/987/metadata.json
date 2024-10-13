@@ -1,0 +1,51 @@
+{
+    "contract": "CBO5CJWTH66QKYDCHBLC3IC44ZNEWDLDPRBJVPWH4CATR5SBERVTHZHF",
+    "name": "Exchange XML for EuroC",
+    "description": "Exchange XML for EuroC on soroswap.",
+    "image": "https://media.tenor.com/OPYKbuuQaOcAAAAe/brainlet.png",
+    "website": "https://app.soroswap.finance.com",
+    "network": "TESTNET",
+    "actions": [
+        {
+            "id": "swap5", 
+            "label": "Swap 5 XML for EuroC", 
+            "method": "swap_exact_tokens_for_tokens",
+            "input": [
+                {
+                    "type": "address",
+                    "value": "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC"
+                },
+                {
+                    "type": "address",
+                    "value": "CDH3CKTJX4WOAFKLX5IZ5CP73UGHA6TSATT5GCHT7AQJXWQ26PDOLRFD"
+                },
+                {
+                    "type": "i128",
+                    "value": 50000000
+                },
+                {
+                    "type": "i128",
+                    "value": 0
+                },
+                {
+                    "type": "distribution",
+                    "value": [{
+                        "parts": 10,
+                        "path": [ 
+                            "CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC", 
+                            "CDH3CKTJX4WOAFKLX5IZ5CP73UGHA6TSATT5GCHT7AQJXWQ26PDOLRFD" 
+                        ],
+                        "protocol_id": "soroswap"
+                    }]
+                },
+                {
+                    "type": "caller"
+                },
+                {
+                    "type": "u64",
+                    "value": 1735686000
+                }
+            ]
+        }
+    ]
+}
