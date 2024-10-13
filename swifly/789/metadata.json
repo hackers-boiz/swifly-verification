@@ -7,7 +7,7 @@
     "network": "TESTNET",
     "actions": [
         {
-            "id": "liqudity100100", 
+            "id": "liquidity100100", 
             "label": "Add Liqudity 100 ARST : 100 BRL", 
             "method": "add_liquidity",
             "input": [
