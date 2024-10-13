@@ -1,0 +1,48 @@
+{
+    "contract": "CCPEDSWPNWJTRIODNYO3THDJ6RYTMMAMDCGAIORRISXKGYU632Y475IF",
+    "name": "Add Liqudity ARST:BRL",
+    "description": "Add Liqudity ARST:BRT on soroswap.",
+    "image": "https://media.tenor.com/OPYKbuuQaOcAAAAe/brainlet.png",
+    "website": "https://app.soroswap.finance.com",
+    "network": "TESTNET",
+    "actions": [
+        {
+            "id": "liqudity100100", 
+            "label": "Add Liqudity 100 ARST : 100 BRL", 
+            "method": "add_liquidity",
+            "input": [
+                {
+                    "type": "address",
+                    "value": "CAEC542FD4QSZG53YKIMQVY35USPM3DOD4QYXRISPJ3EXFMEKUTGRECD"
+                },
+                {
+                    "type": "address",
+                    "value": "CDOKHDOR26QZNR3WODXT4SDZS3SSEFEULJDXAGFY5MKWTIALF4S77ZWT"
+                },
+                {
+                    "type": "i128",
+                    "value": 500000000
+                },
+                {
+                    "type": "i128",
+                    "value": 500000000
+                },
+                {
+                    "type": "i128",
+                    "value": 495000000
+                },
+                {
+                    "type": "i128",
+                    "value": 495000000
+                },
+                {
+                    "type": "caller"
+                },
+                {
+                    "type": "u64",
+                    "value": 9474696746874438034
+                }
+            ]
+        }
+    ]
+}
