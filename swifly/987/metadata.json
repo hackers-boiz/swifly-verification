@@ -1,14 +1,14 @@
 {
     "contract": "CBO5CJWTH66QKYDCHBLC3IC44ZNEWDLDPRBJVPWH4CATR5SBERVTHZHF",
-    "name": "Exchange XML for EuroC",
-    "description": "Exchange XML for EuroC on soroswap.",
+    "name": "Exchange XLM for EuroC",
+    "description": "Exchange XLM for EuroC on soroswap.",
     "image": "https://dq0hsqwjhea1.cloudfront.net/Ngc5907_stellar_stream-e1617403131559.jpg",
     "website": "https://app.soroswap.finance.com",
     "network": "TESTNET",
     "actions": [
         {
             "id": "swap5", 
-            "label": "Swap 5 XML for EuroC", 
+            "label": "Swap 5 XLM for EuroC", 
             "method": "swap_exact_tokens_for_tokens",
             "input": [
                 {
